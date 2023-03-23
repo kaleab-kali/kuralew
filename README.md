@@ -1,6 +1,6 @@
-# tutorial
+# Kuralew APP (ቁራሌው)
 
-new Flutter project.
+New Flutter project.
 
 ## Getting Started
 
@@ -14,7 +14,3 @@ For projects with Firestore integration, you must first run the following comman
 flutter pub get
 
 ```
-
-### Getting started continued:
-
-This project is a starting point for a Flutter application.
