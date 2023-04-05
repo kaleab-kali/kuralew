@@ -1,6 +1,6 @@
 # Kuralew APP (ቁራሌው)
 
-New Flutter project.
+![My Image](image.png)
 
 ## Getting Started
 
