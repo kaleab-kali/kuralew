@@ -1,20 +1,26 @@
 # Kuralew APP (ቁራሌው)
 
-![my image](image.png)
+![My Image](image.png)
 
 ## Getting Started
 
-FlutterFlow projects are built to run on the Flutter _stable_ release.
+This a an app that its mainpurpose isto help users sale items through their mobile phone that is old and used. It works in a way that the app estimates the cost of the product and it gives instant cash for the user and the user will ship it to the closest store.
 
-### IMPORTANT:
+## How to Use 
 
-For projects with Firestore integration, you must first run the following commands to ensure the project compiles:
+**Step 1:**
+
+Download or clone this repo by using the link below:
 
 ```
-flutter pub get
-flutter packages pub run build_runner build --delete-conflicting-outputs
+https://github.com/kaleab-kali/kuralew.git
 ```
 
-This command creates the generated files that parse each Record from Firestore into a schema object.
+**Step 2:**
 
-.
+Go to project root and execute the following command in console to get the required dependencies: 
+
+```
+flutter pub get 
+```
+```
