@@ -1,6 +1,7 @@
 import '/flutter_flow/flutter_flow_theme.dart';
 import '/flutter_flow/flutter_flow_util.dart';
 import '/flutter_flow/flutter_flow_widgets.dart';
+import '/welcome/welcome_widget.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:provider/provider.dart';
@@ -59,7 +60,7 @@ class _HomepageWidgetState extends State<HomepageWidget> {
                 ),
               ),
               Container(
-                width: 391.3,
+                width: 1245.2,
                 height: 693.6,
                 decoration: BoxDecoration(
                   color: FlutterFlowTheme.of(context).secondaryBackground,
@@ -67,21 +68,21 @@ class _HomepageWidgetState extends State<HomepageWidget> {
                 child: Align(
                   alignment: AlignmentDirectional(0.0, -0.4),
                   child: Column(
-                    mainAxisSize: MainAxisSize.max,
+                    mainAxisSize: MainAxisSize.min,
                     children: [
                       Padding(
                         padding:
                             EdgeInsetsDirectional.fromSTEB(0.0, 50.0, 0.0, 0.0),
                         child: Image.network(
                           'https://storage.googleapis.com/flutterflow-io-6f20.appspot.com/projects/tutorial-x3fwkl/assets/9xikdp24qv6r/payment-method.png',
-                          width: 341.9,
-                          height: 407.8,
+                          width: 454.6,
+                          height: 418.6,
                           fit: BoxFit.cover,
                         ),
                       ),
                       Padding(
                         padding: EdgeInsetsDirectional.fromSTEB(
-                            0.0, 50.0, 0.0, 50.0),
+                            0.0, 50.0, 0.0, 40.0),
                         child: Text(
                           'Welcome to  kuralew',
                           textAlign: TextAlign.center,
@@ -96,8 +97,13 @@ class _HomepageWidgetState extends State<HomepageWidget> {
                       Align(
                         alignment: AlignmentDirectional(0.0, 0.0),
                         child: FFButtonWidget(
-                          onPressed: () {
-                            print('Sell pressed ...');
+                          onPressed: () async {
+                            await Navigator.push(
+                              context,
+                              MaterialPageRoute(
+                                builder: (context) => WelcomeWidget(),
+                              ),
+                            );
                           },
                           text: 'Sell Now',
                           options: FFButtonOptions(
